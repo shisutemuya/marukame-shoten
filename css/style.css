@@ -428,15 +428,15 @@ body.menu-open .header {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background-image: url("../assets/images/IMG_0955.webp");
+  background-image: url("../assets/images/hero.webp");
   background-size: cover;
   background-position: center;
   filter: grayscale(0.15) contrast(1.05);
 }
 
-@supports not (background-image: url("../assets/images/IMG_0955.webp")) {
+@supports not (background-image: url("../assets/images/hero.webp")) {
   .hero__bg {
-    background-image: url("../assets/images/IMG_0955.jpg");
+    background-image: url("../assets/images/hero.jpg");
   }
 }
 
